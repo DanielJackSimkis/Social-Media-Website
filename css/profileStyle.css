@@ -1,0 +1,277 @@
+li{
+  margin: auto;
+}
+
+#nvlLogo{
+    height: 600px;
+    width: 100%;
+}
+
+#bannerImg{
+  width: 500px;
+  height: 300px;
+  margin-top: 200px;
+  opacity: 0.7;
+}
+
+#backBanner{
+  background:url(../images/loginBack.jpg);
+  background-size:cover;
+  height: 740px;
+  background-position:center center;
+  background-attachment:fixed;
+}
+
+#profileTitle h1{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 12em;
+  color: black;
+  padding-bottom: 30px;
+}
+
+#profileTitle{
+  border-bottom: 3px solid white;
+  margin-bottom: 20px;
+}
+
+body{
+  background-size:cover;
+  height: 150%;
+  background-position: center;
+  background-attachment:fixed;
+  margin: auto;
+  text-decoration-color: white;
+}
+
+.recomended{
+  width: 300px;
+  float: right;
+}
+
+.search-box-size{
+  width: 600px;
+}
+
+.search-btn-size{
+  height: 34px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .megamenu ul {
+     padding-bottom:15px;
+  }
+  
+  .megamenu > .dropdown-menu {
+     left:-90%;
+     min-width:800px;
+  } 
+  
+}
+
+.dropdown-md > .dropdown-menu {
+    min-width:450px;
+}
+
+.dropdown-lg > .dropdown-menu {
+    min-width:850px;
+}
+
+#aboutID{
+  margin-right: 50px;
+}
+
+.uHeading{
+  margin-bottom: 30px;
+  width: 275px;
+  height: 75px;
+  border: 3px solid white; 
+  border-radius: 50px 0px 0px 50px;
+  background: rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
+  float: left;
+}
+
+.uHeading, .uDetails h1{ 
+  color: white;
+}
+
+.uDetails{
+  margin-bottom: 30px;
+  width: 665px;
+  height: 75px;
+  border: 3px solid white; 
+  border-left: none;
+  background: rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
+  float: left;
+}
+
+.changeDetails{
+  margin-bottom: 30px;
+  width: 200px;
+  height: 75px;
+  border: 3px solid white; 
+  border-left: none;
+  border-radius: 0px 50px 50px 0px;
+  background: black;
+  float: right;
+}
+
+.changeDetails h1{
+  text-align: center;
+  color: white;
+}
+
+#editUNameDetailsMenu{
+  width: 665px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  margin-top: 425px;
+  margin-left: 273px;
+  background-color: gray;
+  border: 3px solid white;
+  border-radius: 25px 25px 25px 25px;
+  overflow-y: hidden;
+}
+
+#editPWordDetailsMenu{
+  width: 665px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  margin-top: 530px;
+  margin-left: 273px;
+  background-color: gray;
+  border: 3px solid white;
+  border-radius: 25px 25px 25px 25px;
+  overflow-y: hidden;
+}
+
+#editTitleDetailsMenu{
+  width: 665px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  margin-top: 635px;
+  margin-left: 273px;
+  background-color: gray;
+  border: 3px solid white;
+  border-radius: 25px 25px 25px 25px;
+  overflow-y: hidden;
+}
+
+#editFNameDetailsMenu{
+  width: 665px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  margin-top: 740px;
+  margin-left: 273px;
+  background-color: gray;
+  border: 3px solid white;
+  border-radius: 25px 25px 25px 25px;
+  overflow-y: hidden;
+}
+
+#editLNameDetailsMenu{
+  width: 665px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  margin-top: 845px;
+  margin-left: 273px;
+  background-color: gray;
+  border: 3px solid white;
+  border-radius: 25px 25px 25px 25px;
+  overflow-y: hidden;
+}
+
+#editDOBDetailsMenu{
+  width: 665px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  margin-top: 950px;
+  margin-left: 273px;
+  background-color: gray;
+  border: 3px solid white;
+  border-radius: 25px 25px 25px 25px;
+  overflow-y: hidden;
+}
+
+#editGenderDetailsMenu{
+  width: 665px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  margin-top: 1055px;
+  margin-left: 273px;
+  background-color: gray;
+  border: 3px solid white;
+  border-radius: 25px 25px 25px 25px;
+  overflow-y: hidden;
+}
+
+#editEmailDetailsMenu{
+  width: 665px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  margin-top: 1160px;
+  margin-left: 273px;
+  background-color: gray;
+  border: 3px solid white;
+  border-radius: 25px 25px 25px 25px;
+  overflow-y: hidden;
+}
+
+#editAddressDetailsMenu{
+  width: 665px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  margin-top: 1265px;
+  margin-left: 273px;
+  background-color: gray;
+  border: 3px solid white;
+  border-radius: 25px 25px 25px 25px;
+  overflow-y: auto;
+}
+
+.input{
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+label{
+  font-size: 25px;
+  color: white;
+}
+
+.profileImage{
+  float: right;
+  margin-bottom: 50px;
+  margin-left: 700px;
+  width: 250px;
+  height: 250px;
+  border: 2px solid white;
+  border-radius: 50% 50% 50% 50%;
+}
+
+#imageURL{
+  text-decoration-color: white;
+  float: right;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#addImage{
+  float: right;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 700px;
+}

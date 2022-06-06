@@ -1,0 +1,9 @@
+Before running the website you will first need to import the database into PHPMyAdmin
+To find the database go into the Project-Website folder in this folder there should be a folder named database, this is where the SQL file should be
+Then go to PHPMyAdmin and create a database named webdb and import the SQL file into this database
+
+USERNAMES & PASSWORDS for website
+
+Username: XIXDANNYXIX Password: danny321
+
+Username: TEST2 Password: testtest
